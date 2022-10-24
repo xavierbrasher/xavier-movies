@@ -1,11 +1,9 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import MovieSite from "./components/MovieSite";
 
-function App() {
-return (
-        <h1 classname="text-3xl"> WOW </h1> 
-)
+export default function App() {
+    return (
+        <>
+            <h1 className="text-center text-3xl font-bold">Main page</h1>
+        </>
+    );
 }
-
-export default App
