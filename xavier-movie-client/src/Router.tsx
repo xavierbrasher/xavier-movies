@@ -5,7 +5,7 @@ import {
     RouterProvider,
 } from "react-router-dom";
 import App from "./App";
-import MovieSite from "./components/MovieSite";
+import MovieSite from "./MovieSite";
 
 const router = createBrowserRouter([
     { path: "/", element: <App /> },
